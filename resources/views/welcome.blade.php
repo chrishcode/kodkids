@@ -57,10 +57,10 @@
       <section class="text-gray-700 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">We teach kids and adolescents
-              <br class="hidden lg:inline-block">how to code!
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">We curate video courses and teach you how to code!
+              <br class="hidden lg:inline-block">
             </h1>
-            <p class="mb-8 leading-relaxed">We make video courses for kids and adolescents who wans to learn coding.</p>
+            <p class="mb-8 leading-relaxed">We curate and neatly organize video courses to help people like you who wants to learn coding, we also guide and support you along the way.</p>
             <div class="flex justify-center">
               <a href="/register" class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Get started</a>
               <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded-full text-lg">Se första videon gratis</button> -->
@@ -76,7 +76,7 @@
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Become the best at code!</h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">We make video courses for kids and adolescents who wants to learn coding. You will go from no coding experience at all to learning the basics about programming.</p>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">We curate video courses for people who wants to learn coding. You will go from no coding experience at all to learning the basics about programming and more.</p>
           </div>
           <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             <div class="p-2 sm:w-1/2 w-full">
@@ -112,7 +112,7 @@
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">All teaching takes place online</span>
+                <span class="title-font font-medium">All learning takes place online</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -160,7 +160,7 @@
                 </div>
               </div>
               <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-300 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                <p class="leading-relaxed text-lg mb-4">Hi! My name is Christopher Wohlfarth, I'm the founder and CEO of KODKIDS. I have several years of working experience with programming. I'm passionate about giving every kid in the world the opportunity to learn coding.</p>
+                <p class="leading-relaxed text-lg mb-4">Hi! My name is Christopher Wohlfarth, I'm the founder and CEO of KODKIDS. I have several years of working experience with programming. I'm passionate about giving every person in the world the opportunity to learn coding.</p>
                 <a href="/register" class="text-blue-500 inline-flex items-center">Get started
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -176,7 +176,7 @@
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">How does it work?</h1>
-            <p class="lg:w-1/2 w-full leading-relaxed text-base">On our website we upload videos that teach kids how to code.</p>
+            <p class="lg:w-1/2 w-full leading-relaxed text-base">On our website we curate videos that teach you how to code.</p>
           </div>
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -187,7 +187,7 @@
                   </svg>
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">What do you learn?</h2>
-                <p class="leading-relaxed text-base">We teach you the basics of programming with Python. We also teach you how to code simple games.</p>
+                <p class="leading-relaxed text-base">We teach you the basics of programming and more. The sky is the limit.</p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -199,8 +199,8 @@
                     <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
                   </svg>
                 </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Who can take our courses?</h2>
-                <p class="leading-relaxed text-base">Our courses is suiting for people who like tech and problem solving. No prior experience needed. Recommended from 10 years old.</p>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Who can register?</h2>
+                <p class="leading-relaxed text-base">The courses we curate are suiting for people who like tech and problem solving. No prior experience needed. Recommended from 10 years old.</p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -212,7 +212,7 @@
                   </svg>
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">How often?</h2>
-                <p class="leading-relaxed text-base">You take the classes in your own pace. We recommend that you try to do 1-2h every week.</p>
+                <p class="leading-relaxed text-base">You learn in your own pace. We recommend that you try to do 1-2h every week.</p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -234,7 +234,7 @@
                   </svg>
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">What programming language do we teach?</h2>
-                <p class="leading-relaxed text-base">We teach you Python, a programming language that is good for beginners and can be used for coding websites, apps, and games.</p>
+                <p class="leading-relaxed text-base">We teach you Javascript, a programming language that is good for beginners and can be used for coding websites, apps, and games.</p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -245,7 +245,7 @@
                   </svg>
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Where do you learn?</h2>
-                <p class="leading-relaxed text-base">You learn coding here on our website. When you register you get access to all our video courses.</p>
+                <p class="leading-relaxed text-base">You learn coding here on our website. When you register you get access to all our curated video courses and intructors.</p>
               </div>
             </div>
           </div>
@@ -259,7 +259,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
               <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
             </svg>
-            <p class="leading-relaxed text-lg">I think it's wonderful that kids finally have a great opportunity to learn coding!</p>
+            <p class="leading-relaxed text-lg">I think it's wonderful that people finally have a great opportunity to learn coding!</p>
             <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-8 mb-6"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">CHRISTOPHER WOHLFARTH</h2>
             <p class="text-gray-500">Founder and CEO of KODKIDS</p>

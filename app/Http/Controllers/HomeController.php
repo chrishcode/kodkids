@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Video;
 
 class HomeController extends Controller
 {
@@ -27,6 +28,8 @@ class HomeController extends Controller
      */
     public function show()
     {
-        return view('home');
+        $videos = Video::all();
+        
+        return view('home')->with('videos', $videos);
     }
 }

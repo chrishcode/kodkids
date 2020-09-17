@@ -1,5 +1,9 @@
 <?php
 
+use Illuminate\Http\Request;
+use App\Models\Video;
+use App\Models\Course;
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
@@ -14,3 +18,63 @@
 Route::get('/', 'WelcomeController@show');
 
 Route::get('/home', 'HomeController@show');
+
+Route::get('/videos/create', function () {
+    if(Auth::user()->email != 'kodkidsss@gmail.com') {
+        return view('home');
+    }
+
+    $courses = Course::all();
+
+    return view('createvideo')->with('courses', $courses);
+});
+
+Route::get('/videos', function () {
+    $videos = Video::orderBy('created_at', 'desc')->simplePaginate(8);
+
+    return view('videos')->with('videos', $videos);
+});
+
+Route::get('/courses', function () {
+    $courses = Course::orderBy('created_at', 'desc')->get();;
+
+    return view('courses')->with('courses', $courses);
+});
+
+Route::get('/courses/{id}', function ($id) {
+    $course = Course::find($id);
+    $videos = $course->videos()->simplePaginate(8);
+
+    return view('course')->with(['course' => $course, 'videos' => $videos]);
+});
+
+Route::post('/videos', function (Request $request) {
+    $video = new Video;
+
+    $video->youtube_url = $request->youtube_url;
+    $video->title = $request->title;
+    $video->description = $request->description;
+    $video->course_id = $request->course_id;
+
+    $video->save();
+
+    return 'Video was uploaded!';
+});
+
+Route::get('/courses/create', function () {
+    if(Auth::user()->email != 'kodkidsss@gmail.com') {
+        return view('home');
+    }
+    return view('createcourse');
+});
+
+Route::post('/courses', function (Request $request) {
+    $course = new Course;
+
+    $course->name = $request->name;
+    $course->description = $request->description;
+
+    $course->save();
+
+    return 'Course was created!';
+});
