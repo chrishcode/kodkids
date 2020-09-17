@@ -57,10 +57,10 @@
       <section class="text-gray-700 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">We curate video courses and teach you how to code!
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Learn how to code!
               <br class="hidden lg:inline-block">
             </h1>
-            <p class="mb-8 leading-relaxed">We curate and neatly organize video courses to help people like you who wants to learn coding, we also guide and support you along the way.</p>
+            <p class="mb-8 leading-relaxed">Learn to code by exploring our curated and neatly organized collection of coding tutorials. If you run into coding problems our instructors help and support you along the way.</p>
             <div class="flex justify-center">
               <a href="/register" class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Get started</a>
               <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded-full text-lg">Se första videon gratis</button> -->
@@ -278,7 +278,7 @@
             </div> -->
           </div>
           <div class="flex flex-wrap -m-4">
-            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
               <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                 <h2 class="text-sm tracking-widest title-font mb-1 font-medium">TRIAL</h2>
                 <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
@@ -297,7 +297,7 @@
                 <p class="text-xs text-gray-500 mt-3">Good for you who want to try before you pay.</p>
               </div>
             </div>
-            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
               <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
                 <span class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
                 <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PAY PER YEAR</h2>
@@ -327,7 +327,7 @@
                 <p class="text-xs text-gray-500 mt-3">Good for you who want to save 45% every year.</p>
               </div>
             </div>
-            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
               <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                 <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PAY PER MONTH</h2>
                 <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -356,35 +356,6 @@
                 <p class="text-xs text-gray-500 mt-3">Good for you who want to pay monthly for a resonable price.</p>
               </div>
             </div>
-            <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
-              <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PAY ONCE</h2>
-                <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                  <span>$350</span>
-                  <span class="text-lg ml-1 font-normal text-gray-500">/once</span>
-                </h1>
-                <p class="flex items-center text-gray-600 mb-2">
-                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                        <path d="M20 6L9 17l-5-5"></path>
-                      </svg>
-                    </span>Unlimited access to all our videos
-                  </p>
-                  <p class="flex items-center text-gray-600 mb-2">
-                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                        <path d="M20 6L9 17l-5-5"></path>
-                      </svg>
-                    </span>Get help from our instructors
-                  </p>
-                <a href="/register" class="flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-600 rounded">Get started
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a>
-                <p class="text-xs text-gray-500 mt-3">Good for you who want to pay one time only.</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -410,5 +381,7 @@
           </span>
         </div>
       </footer>
+
+      <script src="//code.tidio.co/som0loblwgxadhpitzbegbbvyw0bfvo4.js" async></script>
 </body>
 </html>

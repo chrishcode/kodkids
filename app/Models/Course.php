@@ -11,6 +11,6 @@ class Course extends Model
 
     public function videos()
     {
-        return $this->hasMany(Video::class)->orderBy('created_at', 'desc');
+        return $this->hasMany(Video::class)->orderBy('created_at', 'asc');
     }
 }

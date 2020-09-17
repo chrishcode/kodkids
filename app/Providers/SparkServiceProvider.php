@@ -52,17 +52,24 @@ class SparkServiceProvider extends ServiceProvider
     {
         parent::boot();
 
-        Spark::noCardUpFront()->trialDays(10);
+        Spark::noCardUpFront()->trialDays(7);
 
         Spark::freePlan()
             ->features([
-                'First', 'Second', 'Third'
+                'Access to all our videos for 7 days'
             ]);
 
-        Spark::plan('Basic', 'provider-id-1')
-            ->price(10)
+        Spark::plan('Yearly', 'price_1HSMDXCjoPhulSFRYs1jJVUX')
+            ->price(99)
+            ->yearly()
             ->features([
-                'First', 'Second', 'Third'
+                'Access to all our videos for 7 days', 'Get help from our instructors'
+            ]);
+
+        Spark::plan('Monthly', 'price_1HSMEOCjoPhulSFRLETKG0Gb')
+            ->price(15)
+            ->features([
+                'Access to all our videos for 7 days', 'Get help from our instructors'
             ]);
     }
 

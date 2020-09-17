@@ -28,7 +28,7 @@ class HomeController extends Controller
      */
     public function show()
     {
-        $videos = Video::all();
+        $videos = Video::orderBy('created_at', 'desc')->simplePaginate(8);
         
         return view('home')->with('videos', $videos);
     }

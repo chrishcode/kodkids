@@ -21,6 +21,7 @@
       </div>
     @endforeach
     </div>
+    {{ $videos->links() }}
   </div>
 </section>
 </home>

@@ -56,5 +56,7 @@
     <!-- JavaScript -->
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="{{ asset('/js/sweetalert.min.js') }}"></script>
+
+    <script src="//code.tidio.co/som0loblwgxadhpitzbegbbvyw0bfvo4.js" async></script>
 </body>
 </html>
