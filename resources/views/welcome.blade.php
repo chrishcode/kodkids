@@ -60,7 +60,7 @@
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Learn how to code!
               <br class="hidden lg:inline-block">
             </h1>
-            <p class="mb-8 leading-relaxed">Learn to code by exploring our curated and neatly organized collection of coding tutorials. If you run into coding problems our instructors help and support you along the way.</p>
+            <p class="mb-8 leading-relaxed">Learn to code by watching our coding tutorials. If you run into coding problems our instructors help and support you along the way.</p>
             <div class="flex justify-center">
               <a href="/register" class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Get started</a>
               <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded-full text-lg">Se första videon gratis</button> -->
@@ -76,7 +76,7 @@
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Become the best at code!</h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">We curate video courses for people who wants to learn coding. You will go from no coding experience at all to learning the basics about programming and more.</p>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">We make video courses for people who wants to learn coding. You will go from no coding experience at all to learning the basics about programming and more.</p>
           </div>
           <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             <div class="p-2 sm:w-1/2 w-full">
@@ -176,7 +176,7 @@
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">How does it work?</h1>
-            <p class="lg:w-1/2 w-full leading-relaxed text-base">On our website we curate videos that teach you how to code.</p>
+            <p class="lg:w-1/2 w-full leading-relaxed text-base">On our website we make videos that teach you how to code.</p>
           </div>
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -200,7 +200,7 @@
                   </svg>
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Who can register?</h2>
-                <p class="leading-relaxed text-base">The courses we curate are suiting for people who like tech and problem solving. No prior experience needed. Recommended from 10 years old.</p>
+                <p class="leading-relaxed text-base">The courses we make are suiting for people who like tech and problem solving. No prior experience needed. Recommended from 10 years old.</p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -245,7 +245,7 @@
                   </svg>
                 </div>
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Where do you learn?</h2>
-                <p class="leading-relaxed text-base">You learn coding here on our website. When you register you get access to all our curated video courses and intructors.</p>
+                <p class="leading-relaxed text-base">You learn coding here on our website. When you register you get access to all our video courses and intructors.</p>
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@
 <section class="text-gray-700 body-font">
   <div class="container py-24 mx-auto">
   <h1 class="text-3xl font-medium mb-4">Welcome! Let's learn some code!</h1>
-  <p class="mb-8">Here is a collection of all our curated videos.</p>
+  <p class="mb-8">Here is a collection of all our videos.</p>
     <div class="flex flex-wrap -m-4">
     @foreach($videos as $video)
       <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
