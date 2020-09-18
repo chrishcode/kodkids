@@ -71,7 +71,7 @@
             </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img class="object-cover object-center rounded" alt="hero" src="{{ URL::asset('storage/undraw_code_typing_7jnv.png') }}">
+            <!-- <img class="object-cover object-center rounded" alt="hero" src="{{ URL::asset('storage/undraw_code_typing_7jnv.png') }}"> -->
           </div>
         </div>
       </section>
@@ -146,7 +146,7 @@
         <div class="container px-5 py-24 mx-auto flex flex-col">
           <div class="lg:w-4/6 mx-auto">
             <div class="rounded-lg overflow-hidden">
-              <img alt="content" class="object-cover object-center h-full w-full" src="{{ URL::asset('storage/undraw_hacker_mindset_gjwq.png') }}">
+              <!-- <img alt="content" class="object-cover object-center h-full w-full" src="{{ URL::asset('storage/undraw_hacker_mindset_gjwq.png') }}"> -->
             </div>
             <div class="flex flex-col sm:flex-row mt-10">
               <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
@@ -155,7 +155,7 @@
                     <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                     <circle cx="12" cy="7" r="4"></circle>
                   </svg> -->
-                  <img alt="content" class="object-cover object-center h-full w-full rounded-full" src="{{ URL::asset('storage/chris.jpeg') }}">
+                  <img alt="content" class="object-cover object-center h-full w-full rounded-full" src="https://adoniscasts.com/storage/profiles/9GymScUsSSY2TVPi3MyGIuTVisoT6BPjfM5VEZ16.jpeg">
                 </div>
                 <div class="flex flex-col items-center text-center justify-center">
                   <h2 class="font-black title-font mt-4 text-gray-900 text-lg">Christopher Wohlfarth</h2>
