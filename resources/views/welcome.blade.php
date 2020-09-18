@@ -266,7 +266,7 @@
             <p class="leading-relaxed text-lg">I think it's wonderful that people finally have a great resource to learn Adonis!</p>
             <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-8 mb-6"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">CHRISTOPHER WOHLFARTH</h2>
-            <p class="text-gray-500">Founder of KODKIDS</p>
+            <p class="text-gray-500">Founder of adoniscasts</p>
           </div>
         </div>
       </section>
