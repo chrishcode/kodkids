@@ -9,10 +9,10 @@
     <div class="flex flex-wrap -m-4">
     @foreach($videos as $video)
       <div class="lg:w-1/3 md:w-1/2 p-4 w-full">
-        <!-- <a class="block relative h-48 rounded"> -->
-        <iframe src="https://player.vimeo.com/video/{{ $video->youtube_url }}" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <a class="block relative h-48 rounded">
+        <iframe class="-ml-6" src="https://player.vimeo.com/video/{{ $video->youtube_url }}" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         <!-- <iframe class="rounded-lg" width="100%" height="100%" src="{{ $video->youtube_url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-        <!-- </a> -->
+        </a>
         <div class="mt-4">
           <!-- <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">{{ $video->course->name }}</h3> -->
           <h3 class="text-blue-500 text-xs tracking-widest title-font mb-1">{{ $video->created_at->diffForHumans() }}</h3>
