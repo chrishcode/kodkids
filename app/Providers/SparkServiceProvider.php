@@ -54,22 +54,22 @@ class SparkServiceProvider extends ServiceProvider
 
         Spark::noCardUpFront()->trialDays(7);
 
-        Spark::freePlan()
-            ->features([
-                'Access to all our videos for 7 days'
-            ]);
+        // Spark::freePlan()
+        //     ->features([
+        //         'Access to all our videos for 7 days'
+        //     ]);
 
         Spark::plan('Yearly', 'price_1HSMDXCjoPhulSFRYs1jJVUX')
             ->price(99)
             ->yearly()
             ->features([
-                'Access to all our videos for 7 days', 'Get help from our instructors'
+                'Unlimited access to all our videos', 'Get help from our instructors'
             ]);
 
         Spark::plan('Monthly', 'price_1HSMEOCjoPhulSFRLETKG0Gb')
             ->price(15)
             ->features([
-                'Access to all our videos for 7 days', 'Get help from our instructors'
+                'Unlimited access to all our videos', 'Get help from our instructors'
             ]);
     }
 
