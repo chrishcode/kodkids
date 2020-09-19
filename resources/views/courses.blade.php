@@ -4,8 +4,8 @@
 <home :user="user" inline-template>
 <section class="text-gray-700 body-font">
   <div class="container py-24 mx-auto">
-  <h1 class="text-3xl font-black mb-4">Courses</h1>
-  <p class="mb-8">Here is a collection of all our courses.</p>
+  <h1 class="text-3xl font-black mb-4">Screencasts</h1>
+  <p class="mb-8">Here's screencasts that teach you how to use our developer tools.</p>
     <div class="flex flex-wrap -m-4">
     @foreach($courses as $course)
     <div class="p-4 md:w-1/2">
@@ -20,7 +20,7 @@
           </div>
           <div class="flex-grow">
             <p class="leading-relaxed text-base">{{ $course->description }}</p>
-            <a  href="/courses/{{ $course->id }}" class="mt-3 text-blue-500 inline-flex items-center">Watch course
+            <a  href="/courses/{{ $course->id }}" class="mt-3 text-blue-500 inline-flex items-center">Watch screencasts
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
               </svg>

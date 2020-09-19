@@ -61,10 +61,10 @@
       <section class="text-gray-700 body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 class="title-font sm:text-5xl text-5xl mb-4 font-black text-gray-900">AdonisJS screencasts!
-              <br class="hidden lg:inline-block">
+            <h1 class="title-font sm:text-5xl text-5xl mb-4 font-black text-gray-900">AdonisJS developer tools
+              <br class="hidden lg:inline-block">and screencasts!
             </h1>
-            <p class="mb-8 leading-relaxed">We make screencasts on AdonisJS, the Node.js Framework highly focused on developer ergonomics, stability and speed. Become an Adonis developer today!</p>
+            <p class="mb-8 leading-relaxed">We make awesome developer tools for AdonisJS with one simple goal in mind, developer happiness. As if that was not enough we also make entertaining screencasts that teach you how to use our tools.</p>
             <div class="flex justify-center">
               <a href="/register" class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Get started</a>
               <!-- <button class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded-full text-lg">Se första videon gratis</button> -->
@@ -79,8 +79,21 @@
       <section class="text-gray-700 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
-            <h1 class="sm:text-3xl text-2xl font-black text-center title-font text-gray-900 mb-4">Become the best at Adonis!</h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">With our screencasts on Adonis you will experience the joy of developer happiness and become the best at what you do.</p>
+            <h1 class="sm:text-3xl text-2xl font-black text-center title-font text-gray-900 mb-4">Flare - Coming soon!</h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Flare is a beautifully designed application scaffolding for AdonisJS. Flare provides the perfect starting point for your next Adonis application and includes login and registration out of the box.</p>
+          </div>
+          <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+            <img class="border-solid border-2 border-gray-200 rounded-lg mt-4" src="https://file.coffee/u/885ThUVjHU.png" alt="flare" />
+          </div>
+          <form action="/register"><button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Get started</button></form>
+        </div>
+      </section>
+
+      <section class="text-gray-700 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="text-center mb-20">
+            <h1 class="sm:text-3xl text-2xl font-black text-center title-font text-gray-900 mb-4">Become the best at what you do!</h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">With our tools and screencasts for Adonis you will experience the joy of developer happiness and become the best at what you do.</p>
           </div>
           <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             <div class="p-2 sm:w-1/2 w-full">
@@ -89,7 +102,7 @@
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">Become the best at Adonis</span>
+                <span class="title-font font-medium">Awesome developer tools</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -98,7 +111,7 @@
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">Work in your own pace</span>
+                <span class="title-font font-medium">Superhero scaffolding</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -107,7 +120,7 @@
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">World class instructors</span>
+                <span class="title-font font-medium">World class screencasters</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -116,7 +129,7 @@
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">All learning takes place online</span>
+                <span class="title-font font-medium">Developer happiness</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -125,7 +138,7 @@
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">Creative learning</span>
+                <span class="title-font font-medium">Lightning fast coding</span>
               </div>
             </div>
             <div class="p-2 sm:w-1/2 w-full">
@@ -134,7 +147,7 @@
                   <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
                   <path d="M22 4L12 14.01l-3-3"></path>
                 </svg>
-                <span class="title-font font-medium">Take one step at a time</span>
+                <span class="title-font font-medium">Great for lazy devs</span>
               </div>
             </div>
           </div>
@@ -180,7 +193,7 @@
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 class="sm:text-3xl text-2xl font-black title-font mb-2 text-gray-900">How does it work?</h1>
-            <p class="lg:w-1/2 w-full leading-relaxed text-base">On our website we make screencasts on Adonis.</p>
+            <p class="lg:w-1/2 w-full leading-relaxed text-base">On our website we give you access to amazing developer tools and entertaining screencasts for Adonis.</p>
           </div>
           <div class="flex flex-wrap -m-4">
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -190,8 +203,8 @@
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                   </svg>
                 </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">What do you learn?</h2>
-                <p class="leading-relaxed text-base">We teach you the basics of Adonis and more. The sky is the limit.</p>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">We make awesome developer tools</h2>
+                <p class="leading-relaxed text-base">We create great Adonis developer tools that help you build your applications faster and better.</p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -203,8 +216,8 @@
                     <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
                   </svg>
                 </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Who can register?</h2>
-                <p class="leading-relaxed text-base">The screencasts we make are suiting for both beginner and advanced Adonis developers.</p>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">We teach you how to use them</h2>
+                <p class="leading-relaxed text-base">On our website we make screencasts that teach you how to use our wonderful developer tools.</p>
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -215,11 +228,11 @@
                     <circle cx="12" cy="7" r="4"></circle>
                   </svg>
                 </div>
-                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">How often?</h2>
-                <p class="leading-relaxed text-base">You learn and work in your own pace. We post new screencasts every week day.</p>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-2">You become a happy developer</h2>
+                <p class="leading-relaxed text-base">With our products in your toolbox you will finally experince developer happiness.</p>
               </div>
             </div>
-            <div class="xl:w-1/3 md:w-1/2 p-4">
+            <!-- <div class="xl:w-1/3 md:w-1/2 p-4">
               <div class="border border-gray-300 p-6 rounded-lg">
                 <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-6 h-6" viewBox="0 0 24 24">
@@ -251,7 +264,7 @@
                 <h2 class="text-lg text-gray-900 font-medium title-font mb-2">Where do you learn?</h2>
                 <p class="leading-relaxed text-base">You learn Adonis here on our website. When you register you get access to all our screencasts and intructors.</p>
               </div>
-            </div>
+            </div> -->
           </div>
           <form action="/register"><button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Get started</button></form>
         </div>
@@ -263,7 +276,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
               <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
             </svg>
-            <p class="leading-relaxed text-lg">I think it's wonderful that people finally have a great resource to learn Adonis!</p>
+            <p class="leading-relaxed text-lg">I think it's wonderful that people now have a great resource for building amazing Adonis applications!</p>
             <span class="inline-block h-1 w-10 rounded bg-blue-500 mt-8 mb-6"></span>
             <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">CHRISTOPHER WOHLFARTH</h2>
             <p class="text-gray-500">Founder of adoniscasts</p>
@@ -284,14 +297,28 @@
           <div class="flex flex-wrap -m-4">
             <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
               <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">TRIAL</h2>
+                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">TRIAL 7 DAYS</h2>
                 <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
                 <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
-                  </span>Access to all our screencasts for 7 days
+                  </span>Access to all our screencasts
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>Access to all our developer tools
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>Access to help from our instructors
                 </p>
                 <a href="/register" class="flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-600 rounded">Get started
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
@@ -314,14 +341,21 @@
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
-                  </span>Unlimited access to all our screencasts
+                  </span>Access to all our screencasts
                 </p>
                 <p class="flex items-center text-gray-600 mb-2">
                   <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
-                  </span>Get help from our instructors
+                  </span>Access to all our developer tools
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>Access to help from our instructors
                 </p>
                 <a href="/register" class="flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded">Get started
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
@@ -339,25 +373,32 @@
                   <span class="text-lg ml-1 font-normal text-gray-500">/monthly</span>
                 </h1>
                 <p class="flex items-center text-gray-600 mb-2">
-                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                        <path d="M20 6L9 17l-5-5"></path>
-                      </svg>
-                    </span>Unlimited access to all our screencasts
-                  </p>
-                  <p class="flex items-center text-gray-600 mb-2">
-                    <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
-                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                        <path d="M20 6L9 17l-5-5"></path>
-                      </svg>
-                    </span>Get help from our instructors
-                  </p>
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>Access to all our screencasts
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>Access to all our developer tools
+                </p>
+                <p class="flex items-center text-gray-600 mb-2">
+                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>Access to help from our instructors
+                </p>
                 <a href="/register" class="flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-600 rounded">Get started
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
                 </a>
-                <p class="text-xs text-gray-500 mt-3">Good for you who want to pay monthly for a resonable price.</p>
+                <p class="text-xs text-gray-500 mt-3">Good for you who want to pay monthly.</p>
               </div>
             </div>
           </div>
