@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Course;
 
 class WelcomeController extends Controller
 {
@@ -13,6 +14,8 @@ class WelcomeController extends Controller
      */
     public function show()
     {
-        return view('welcome');
+        $courses = Course::orderBy('created_at', 'desc')->get();
+
+        return view('welcome')->with('courses', $courses);
     }
 }

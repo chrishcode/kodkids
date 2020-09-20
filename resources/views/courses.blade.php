@@ -5,7 +5,7 @@
 <section class="text-gray-700 body-font">
   <div class="container py-24 mx-auto">
   <h1 class="text-3xl font-black mb-4">Screencasts</h1>
-  <p class="mb-8">Here's screencasts that teach you how to use our developer tools.</p>
+  <p class="mb-8">Here's a collection of all our screencasts.</p>
     <div class="flex flex-wrap -m-4">
     @foreach($courses as $course)
     <div class="p-4 md:w-1/2">
