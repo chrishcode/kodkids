@@ -17,6 +17,10 @@ use App\Models\Course;
 
 Route::get('/', 'WelcomeController@show');
 
+Route::get('/flare', function () {
+    return view('flare');
+});
+
 Route::get('/home', 'HomeController@show');
 
 Route::get('/videos/create', function () {
@@ -53,7 +57,7 @@ Route::get('/courses', function () {
 
         return view('welcome')->with('courses', $courses);
     }
-    
+
     $courses = Course::orderBy('created_at', 'desc')->get();
 
     return view('courses')->with('courses', $courses);
