@@ -5,5 +5,5 @@
 </li>
 
 <li class="nav-item">
-    <a href="/home" class="nav-link" href="#">Flare (Coming soon)</a>
+    <a href="/flare" class="nav-link" href="#">Flare</a>
 </li>

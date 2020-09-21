@@ -21,6 +21,10 @@ Route::get('/flare', function () {
     return view('flare');
 });
 
+Route::get('/flare/docs', function () {
+    return view('flaredocs');
+});
+
 Route::get('/home', 'HomeController@show');
 
 Route::get('/videos/create', function () {

@@ -296,54 +296,6 @@
         </div>
       </section>
 
-      <section class="text-gray-700 body-font overflow-hidden">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-4xl text-3xl font-black title-font mb-2 text-gray-900">Pricing</h1>
-            <!-- <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.</p>
-            <div class="flex mx-auto border-2 border-blue-500 rounded overflow-hidden mt-6">
-              <button class="py-1 px-4 bg-blue-500 text-white focus:outline-none">Monthly</button>
-              <button class="py-1 px-4 focus:outline-none">Annually</button>
-            </div> -->
-          </div>
-          <div class="flex flex-wrap -m-4">
-            <div class="p-4 xl:w-1/3 md:w-1/2 w-full">
-              <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PAY ONE TIME</h2>
-                <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">$5</h1>
-                <p class="flex items-center text-gray-600 mb-2">
-                  <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
-                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
-                      <path d="M20 6L9 17l-5-5"></path>
-                    </svg>
-                  </span>A fresh copy of Flare
-                </p>
-                <!-- <a href="/register" class="flex items-center mt-auto text-white bg-gray-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-600 rounded">Get started
-                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-auto" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </a> -->
-                <p class="text-xs text-gray-500 mt-3">Good for you who never want to code authentication again.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="text-gray-700 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div class="text-center mb-20">
-            <h1 class="sm:text-3xl text-2xl font-black text-center title-font text-gray-900 mb-4">Download</h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">You can buy and download Flare here via Gitstore.</p>
-          </div>
-          <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            <div id="gitstore-embed"></div>
-            <!-- <img class="border-solid border-2 border-gray-200 rounded-lg mt-4" src="https://file.coffee/u/zTdVq7kjij.png" alt="flare" /> -->
-          </div>
-          <!-- <form action="/register"><button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Get started</button></form> -->
-        </div>
-      </section>
-
       <footer class="text-gray-700 body-font">
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -367,44 +319,5 @@
       </footer>
 
       <script src="//code.tidio.co/som0loblwgxadhpitzbegbbvyw0bfvo4.js" async></script>
-      <script>
-    var iframe = document.createElement("iframe");
-
-    iframe.style.display = "none";
-
-    iframe.onload = function() {
-        iframe.style.display = "block";
-    };
-
-    window.addEventListener("message", function(event) {
-        if (!event.data) {
-            return;
-        }
-
-        var parts = event.data.split("→");
-
-        if (parts[0] === "gitstore.height") {
-            iframe.style.height = parts[1] + "px";
-        }
-
-        if (parts[0] === "gitstore.location") {
-            var link = document.createElement("a");
-            link.setAttribute("href", parts[1]);
-            link.setAttribute("target", "_blank");
-            link.click();
-        }
-
-        if (parts[0] === "gitstore.reload") {
-            iframe.contentWindow.postMessage(event.data, "*");
-        }
-    });
-
-    var target = document.querySelector("#gitstore-embed");
-
-    if (target) {
-        target.appendChild(iframe);
-        iframe.src = "https://gitstore.app/repositories/chrishcode/adoniscasts-flare/embed";
-    }
-</script>
 </body>
 </html>

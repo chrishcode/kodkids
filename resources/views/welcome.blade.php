@@ -405,11 +405,12 @@
       <section class="text-gray-700 body-font">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
-            <h1 class="sm:text-3xl text-2xl font-black text-center title-font text-gray-900 mb-4">Flare - Coming soon!</h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Flare is a beautifully designed application scaffolding for AdonisJS built by the founders of adoniscasts. Flare provides the perfect starting point for your next Adonis application and includes login and registration out of the box. Flare will be 100% open source and available soon!</p>
+            <h1 class="sm:text-3xl text-2xl font-black text-center title-font text-gray-900 mb-4">Flare</h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Flare is a beautifully designed application scaffolding for AdonisJS built by the founders of adoniscasts. Flare provides the perfect starting point for your next Adonis application and includes login and registration out of the box. Flare is 100% open source and available now!</p>
+            <form action="/flare"><button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Get started with Flare</button></form>
           </div>
           <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            <img class="border-solid border-2 border-gray-200 rounded-lg mt-4" src="https://file.coffee/u/885ThUVjHU.png" alt="flare" />
+            <img class="border-solid border-2 border-gray-200 rounded-lg mt-4" src="https://file.coffee/u/zTdVq7kjij.png" alt="flare" />
           </div>
           <!-- <form action="/register"><button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded-lg text-lg">Get started</button></form> -->
         </div>
